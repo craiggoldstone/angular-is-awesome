@@ -1,0 +1,6 @@
+{
+  "name": "angular-is-awesome",
+  "dependencies": {
+    "angular": "1.4"
+  }
+}
