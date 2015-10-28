@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stage 2</title>
+
+    <script src="bower_components/angular/angular.js"></script>
+    
+    <!-- menu module -->
+    <script src="scripts/components/menu/module.js"></script>
+    <script src="scripts/components/menu/directives/menu-directive.js"></script>
+    <script src="scripts/components/menu/controllers/menu-controller.js"></script>
+    <script src="scripts/components/menu/services/menu-service.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/components/menu/styles/menu.css">
+
+    <!-- map module -->
+    <script src="scripts/components/map/module.js"></script>
+    <script src="scripts/components/map/directives/map-directive.js"></script>
+    <script src="scripts/components/map/controllers/map-controller.js"></script>
+    <script src="scripts/components/map/services/map-service.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/components/map/styles/map.css">
+
+    <script src="scripts/app.js"></script>
+
+</head>
+<body ng-app="aia" ng-controller="aia.controller">
+    <aia-menu></aia-menu>
+    <aia-map center=></aia-map>
+</body>
+</html>

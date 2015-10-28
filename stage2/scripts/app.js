@@ -1,4 +1,4 @@
-var app = angular.module('aia', []);
+var app = angular.module('aia', ['aia.menu', 'aia.map']);
 
 app.controller('aia.controller', function () {
 

@@ -1,0 +1,7 @@
+{
+  "name": "angular-is-awesome",
+  "dependencies": {
+    "angular": "1.4",
+    "requirejs": "~2.1.20"
+  }
+}
