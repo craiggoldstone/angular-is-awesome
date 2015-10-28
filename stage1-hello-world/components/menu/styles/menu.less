@@ -1,0 +1,24 @@
+@import "../../colours";
+
+aia-menu {
+	display: block;
+	overflow: auto;
+	width: 100%;
+	background-color: @brand-primary1;
+	color: #dfdfdf;
+	padding: 1em;
+
+	button {
+		background-color: @brand-secondary1;
+		border: 0;
+		padding: 1em;
+
+		&:hover {
+			background-color: lighten(@brand-secondary1, 40%);
+		}
+
+		+ button {
+			margin-left: 1em;
+		}
+	}
+}

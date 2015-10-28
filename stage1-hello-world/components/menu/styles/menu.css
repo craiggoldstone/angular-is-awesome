@@ -1,0 +1,19 @@
+aia-menu {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  background-color: #453c90;
+  color: #dfdfdf;
+  padding: 1em;
+}
+aia-menu button {
+  background-color: #d40058;
+  border: 0;
+  padding: 1em;
+}
+aia-menu button:hover {
+  background-color: #ffa1c8;
+}
+aia-menu button + button {
+  margin-left: 1em;
+}

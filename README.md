@@ -1,8 +1,6 @@
 # angular-is-awesome
 
 # stage 1 - Hello World
-ng-app
-ng-controller, controller as
 
 # stage 2 - Project structure
 one folder for each component
