@@ -4,17 +4,20 @@ define(['../module'], function(menuModule) {
 
     var menuService = function($http) {
 
-        var buttons = [];
-
-        $http({
-            method: 'GET',
-            url: 'json/locations.json'
-        }).then(function(response) {
-            buttons.length = 0; // empty the array
-
-            // inject new buttons into the now empty array
-            buttons.splice.apply(buttons, [0,0].concat(response.data));
-        });
+        var buttons = [
+            {
+                "name": "London",
+                "latLon": [51.5073509, -0.12775829999998223]
+            },
+            {
+                "name": "Southampton",
+                "latLon": [50.90970040000001, -1.404350900000054]
+            },
+            {
+                "name": "OSHQ",
+                "latLon": [50.93788, -1.470625000000041]
+            }
+        ];
 
         // return the public API
         return {
@@ -22,5 +25,5 @@ define(['../module'], function(menuModule) {
         };
     };
 
-	return ngDependencies.concat([menuService]);
+    return ngDependencies.concat([menuService]);
 });

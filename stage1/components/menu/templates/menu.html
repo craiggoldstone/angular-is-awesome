@@ -1,6 +1,4 @@
 <header>
 	<h2>Title: {{vm.title}}</h2>
-	<nav>
-		<button ng-repeat="button in vm.buttons" type="button" ng-click="vm.zoom(button.latLon)">{{button.name}}</button>
-	</nav>
+	<button ng-repeat="button in vm.buttons" type="button" ng-click="vm.zoom(button.latLon)">{{button.name}}</button>
 </header>
