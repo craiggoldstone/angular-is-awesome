@@ -1,0 +1,14 @@
+aia-map {
+  display: block;
+  overflow: auto;
+  height: calc(100vh - 64px);
+  width: 100%;
+}
+.map {
+  height: 100%;
+  width: 100%;
+}
+.angular-openlayers-map {
+  height: 100%;
+  width: 100%;
+}
